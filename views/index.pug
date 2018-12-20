@@ -1,0 +1,14 @@
+html
+
+    head
+        title Mongoose Exercise
+
+    body
+        h1(style="font-family: monospace") A Todo List App
+        form(action="/addTodo", method="post")
+            input(placeholder="Enter a todo" name="todo")
+            button(type="submit") Submit
+        if (todosFound)
+            for todos in todosFound 
+                p= todos.task
+        
