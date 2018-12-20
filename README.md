@@ -1,6 +1,11 @@
-# MongooseEx
+# MongooseEx Instructions
 Exercise for mongoose to learn how to save and retrieve documents. 
 
+To get started, git clone this repository. Since this is your own exercise, you DO NOT need to push or commit your work to this repository.
+
+You MUST have a working instance of mongoDB running before your app will work. Otherwise you won't have anywhere to save your documents.
+
+# Exercise 
 You need to finish this todo app. 
 
 In order to do this, you will need to complete two routes, '/addTodo' and '/' . You should complete the '/addTodo' route
